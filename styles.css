@@ -12,85 +12,91 @@ button {
     border-radius: 8px;
     border: none;
 }
-
-a{
-    text-decoration: none;
-    color: #e5e7eb;
-    font-size: 18px;
-}
-
-ul{
-    display: flex;
-    gap: 12px;
-
-}
-  
-
-.section_A {
-    background-color: #1f2937; 
-    color: #f9faf8;
-    padding:0px 250px;
-}
-
-
-.header {
-    color:#f9faf8;
-    display: flex;
+section{
+    padding: 5rem 15vw;
     
+
+}
+
+
+p {
+    line-height: 1.5em;
+    margin: 0 auto 1em;
+}
+header{
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
+    background-color:#1f2937;
+    
+    padding:1rem 15vw;
+
 }
 
-
-
-.header_logo {
+header h1{
     font-size: 24px;
-    font-weight: bold;
     color: #f9faf8;
+    font-weight: 500;
+    
+
 }
 
-.hero {
-    padding: 100px 0;
-    display: flex;
-    flex-wrap: wrap;
+header nav{
+    color:#e5e7eb;
+
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #e5e7eb;
+
+}
+
+
+/*****************************************/
+#hero {
     justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    
+
     
 }
 
-.main{
-    font-size: 48px;
-    font-weight: bolder;
-    margin-bottom: 16px;
-
-}
-.hero_subtext{
-    font-family: roboto, sans-serif;
-    font-size: 18px;
-    line-height: 140%;
-    color: #e5e7eb;
-
-    margin-bottom: 16px;
-}
-
-
-
-.left{  
-    flex-wrap: wrap;
-    flex: 1;
-    padding-right: 48px;
-}
-
-.box_placeholder {
-
-    background-color: rgb(114, 118, 128);
-    flex: 1;
-
+#hero article{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
+    
+
 }
 
+#hero article div{
+    flex: 1;
+    
+}
+
+#hero h2{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight:800;
+}
+
+#hero p{
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
+#hero img{
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    height: auto;
+    width: 100%;
+
+}
 
 button.sign_up{
     background-color: #3882f6;
@@ -99,14 +105,13 @@ button.sign_up{
 
 }
 
-.section_B {
+#info    {
     background-color: #ffffff; 
     color: #1f2937;
     padding:100px 250px;
     text-align: center;
-    
 }
-.information_header{
+#info h3{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -139,6 +144,7 @@ button.sign_up{
     border-radius:16px;
     border: 4px #3882f6 solid;
     margin-bottom: 8px;
+    background-color: #003989;
 }
 .tag{
     width: 175px;
@@ -146,7 +152,7 @@ button.sign_up{
     color:#1f2937;
 }
 
-.section_C {
+#quote{
     background-color:#e5e7eb; 
     color: #f9faf8;
     padding:0px 250px;
@@ -206,11 +212,12 @@ button.sign_up{
     border: 2px white solid;
 }
 
-.footer{
+footer h6{
     background-color: #1f2937;
     padding: 24px;
     text-align: center;
     color: #e5e7eb;
     font-size: 16px;
     font-weight: 200;
+    
 }
